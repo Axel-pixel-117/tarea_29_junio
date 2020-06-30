@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Tarea 05 en JS</title>
+  </head>
+  <body>
+   
+   <div class="modal" tabindex="-1" role="dialog" id="v-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Los números primos entre el 1 y 50 son:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>2,3,5,7,11,13,17,19,23,29,31,37,41,43,47</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+   
+   
+    
+     <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="14_VentanasCondicionalesJS.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="01_TareaJS.html">Tarea 01</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="02_TareaJS.html">Tarea 02</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="03_TareaJS.html">Tarea 03</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="04_TareaJS.html">Tarea 04</a>
+            </li>
+        </ul>
+        
+        <input type="button" value="Click 1" onclick="num();">
+        <input type="button" value="Click 2" onclick="prime();" id="btn">
+        <input type="button" value="Click 3" onclick="nMayor();">
+        
+        <div></div>
+        <br>
+        <br>
+        <label>Ingresa el primer numero: </label>
+        <input id="num1" type="numb">
+        <br><br>
+        <label>Ingresa el segundo numero: </label>
+        <input id="num2" type="numb">
+        <br><br>
+        <label>Ingresa el tercer numero: </label>
+        <input id="num3" type="numb">
+        <br><br>
+        <input type="button" value="Enviar" onclick="mayor();">
+        <br><br>
+        
+        
+        <h2 id="resultado"></h2>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

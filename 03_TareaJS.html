@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tarea 3 en JS</title>
+	<script>
+        // 
+		function cambiarTexto(){document.getElementById("titulo").innerHTML= name;}
+        //DECLARAMOS VARIABLE PARA ABRIR LA VENTANA
+        var name = prompt("Introduce tu nombre");
+
+	</script>
+</head>
+<body>
+    <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="01_TareaJS.html">Tarea 01</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="02_TareaJS.html">Tarea 02</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="14_VentanasCondicionalesJS.html">Inicio</a>
+            </li>
+        </ul>
+    <!--ELEMENTO A CAMBIAR -->
+    <h1 id="titulo">Tarea 03 con JavaScript</h1>
+    <!--BOTÓN PARA CAMBAIR EL TEXTO-->
+    <input type="button" value="clickme" onclick="cambiarTexto();">
+
+</body>
+</html>

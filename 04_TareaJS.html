@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Tarea 04 en JS</title>
+    </head>
+    <body>
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="14_VentanasCondicionalesJS.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="01_TareaJS.html">Tarea 01</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="02_TareaJS.html">Tarea 02</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="03_TareaJS.html">Tarea 03</a>
+            </li>
+        </ul>
+        <script>
+            // declaramos la variable y se inicializza en cero
+            var suma = 0;
+            // solicitamos el numero utilizando el parseInt para convertir de texto a numero
+            num = parseInt(prompt("Ingresa un número"));
+            //iniciamos ciclo do while
+            do{
+                // usamos un acumulador para sumar los numeros que vayamos ingresando
+                suma = suma+num;
+                // solicitamos otra vez e numero para ir sumandolo
+                num = parseInt(prompt("Ingresa otro número"));
+            }
+            //establecemos la condición que determinará si el ciclo se repite o no
+            while(num > 0)
+            //imprimimos el resultado de la suma
+            document.write("El resultado de la suma es: "+suma)
+        </script>
+    </body>
+</html>

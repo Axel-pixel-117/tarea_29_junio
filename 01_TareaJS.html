@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Tarea 01 en JS</title>
+    </head>
+    <body>
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="14_VentanasCondicionalesJS.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="02_TareaJS.html">Tarea 02</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="03_TareaJS.html">Tarea 03</a>
+            </li>
+        </ul>
+        <script>
+            //VARIABLE CALIF PARA PEDIR LA CALIFICACIÓN
+            var calif = prompt ("Indtroduce tu calificación");
+            document.write (calif);
+            //CONDICIONAL QUE DETERMINA EL NIVEL DE COMPETENCIA
+            if (calif>=9.5 && calif<=10){
+                alert(" Nivel de competencia: Autónomo ");
+            }
+            else if (calif>=8.5 && calif<=9.4){
+                alert(" Nivel de competencia: Destacado ");
+            }
+            else if (calif>=7.5 && calif<=8.4){
+                alert(" Nivel de competencia: Satisfactorio ");
+            }
+            else if(calif>=0 && calif<=7.4){
+                alert(" Nivel de competencia: No acredita ")
+            }
+            else{
+                alert(" Valores no validos ")
+            }
+        </script>
+    </body>
+</html>

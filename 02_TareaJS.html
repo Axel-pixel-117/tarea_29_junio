@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tarea 2 en JS</title>
+	<script>
+        // EN LA FUNCIÓN AGREGAMOS EL ELEMENTO A CAMBIAR SEGUDO DEL ELEMENTO POR EL QUE QUEREMOS PONER
+		function cambiarTexto(){document.getElementById("titulo").innerHTML= "Axel Méndez González";}
+	</script>
+</head>
+<body>
+    <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="01_TareaJS.html">Tarea 01</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="14_VentanasCondicionalesJS.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="03_TareaJS.html">Tarea 03</a>
+            </li>
+        </ul>
+    <!-- ELEMENTO A CAMBIAR -->
+    <h1 id="titulo">Tarea 02 con JavaScript</h1>
+    <!-- BOTÓN PARA CAMBIAR EL ELEMENTO -->
+    <input type="button" value="clickme" onclick="cambiarTexto();">
+
+</body>
+</html>
